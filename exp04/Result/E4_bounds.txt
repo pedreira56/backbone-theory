@@ -1,0 +1,9 @@
+E4 - bounds of Observation O2 (oracle sample of 2000000)
+
+  identified part  Cov(r1(XB),r2(XB))      : +0.00005
+  half-width       E[sd1(XB) sd2(XB)]      : 0.24523
+
+  in correlation units
+  interval compatible with the data        : [-0.8559, +0.8562]
+  centre (value under Cond_CI)             : +0.0002
+  population value (theta = 0.45)          : +0.3854

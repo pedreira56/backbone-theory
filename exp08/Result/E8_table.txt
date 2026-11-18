@@ -1,0 +1,53 @@
+E8 - a worked design problem with costs and capacity
+
+Candidate measurements
+  measurement      cost  minutes
+  dimensions          1        5
+  density             2       10
+  hardness            3       15
+  ultrasonic          5       40
+  roughness           4       30
+  conductivity        3       15
+
+Destructive tests: tensile, impact, fatigue
+  bench minutes per specimen: 20  10  60
+
+Best backbone at each cardinality, 60 bench hours per test
+   b      risk     floor    excess   cost   donors   backbone
+   0   12.0000   12.0000    0.0000      0      180   
+   1    9.2999    9.2471    0.0528      3      102   conductivity
+   2    6.5641    6.1742    0.3899      4       90   dimensions + conductivity
+   3    5.9796    5.4752    0.5044      9       45   dimensions + ultrasonic + conductivity
+   4    5.9431    5.2462    0.6969     12       37   dimensions + hardness + ultrasonic + conductivity
+   5    6.0075    5.1436    0.8639     14       34   dimensions + density + hardness + ultrasonic + conductivity
+   6    6.3425    5.0886    1.2539     18       26   dimensions + density + hardness + ultrasonic + roughness + conductivity
+
+Five best candidates at 60 bench hours per test
+  1. risk  5.9431  cost 12  donors   37/  42/  26  dimensions + hardness + ultrasonic + conductivity
+  2. risk  5.9796  cost  9  donors   45/  51/  30  dimensions + ultrasonic + conductivity
+  3. risk  6.0075  cost 14  donors   34/  37/  24  dimensions + density + hardness + ultrasonic + conductivity
+  4. risk  6.0288  cost  7  donors   65/  80/  37  dimensions + hardness + conductivity
+  5. risk  6.0993  cost  6  donors   72/  90/  40  dimensions + density + conductivity
+
+Recommendation at each capacity, with no monetary cost
+   15 bench hours: risk  6.9747  donors   18/  22/  10  dimensions + density + hardness
+   60 bench hours: risk  5.9431  donors   37/  42/  26  dimensions + hardness + ultrasonic + conductivity
+  300 bench hours: risk  5.3317  donors  133/ 144/ 102  dimensions + density + hardness + ultrasonic + roughness + conductivity
+
+Recommendation as the price of a measurement rises
+   15 bench hours:
+     price >= 0.000 : dimensions + density + hardness
+     price >= 0.140 : dimensions + conductivity
+   60 bench hours:
+     price >= 0.000 : dimensions + hardness + ultrasonic + conductivity
+     price >= 0.014 : dimensions + ultrasonic + conductivity
+     price >= 0.026 : dimensions + hardness + conductivity
+     price >= 0.072 : dimensions + density + conductivity
+     price >= 0.234 : dimensions + conductivity
+  300 bench hours:
+     price >= 0.000 : dimensions + density + hardness + ultrasonic + roughness + conductivity
+     price >= 0.012 : dimensions + density + hardness + ultrasonic + conductivity
+     price >= 0.038 : dimensions + ultrasonic + conductivity
+     price >= 0.150 : dimensions + conductivity
+
+Elapsed: 0.9 min

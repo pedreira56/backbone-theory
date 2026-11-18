@@ -1,0 +1,23 @@
+E10b - greedy search with the pairing term at its population value
+
+population optimum at b = 3: [1  2  3], U = 4.2214
+population-optimal cardinality: 3 (cost 0.40), 3 (cost 0.50)
+replications per pilot size: 50 (same seeds as E10)
+compare line by line with E10 (estimated Delta) and with E9 (exhaustive
+enumeration, population Delta) to separate search cost from geometry cost
+
+exc_med, exc_q25, exc_q75: median and interquartile range of the excess
+exc_p05, exc_p95: 90% interval of the excess across replications
+per-replication vectors are stored in E10b.mat as excR, hitR and bsR
+
+     <strong>n</strong>      <strong>hit_backbone</strong>    <strong>excess_criterion</strong>    <strong>exc_med</strong>    <strong>exc_q25</strong>    <strong>exc_q75</strong>    <strong>exc_p05</strong>    <strong>exc_p95</strong>    <strong>bsel_c40</strong>    <strong>pb_c40</strong>    <strong>bsel_c50</strong>    <strong>pb_c50</strong>
+    <strong>____</strong>    <strong>____________</strong>    <strong>________________</strong>    <strong>_______</strong>    <strong>_______</strong>    <strong>_______</strong>    <strong>_______</strong>    <strong>_______</strong>    <strong>________</strong>    <strong>______</strong>    <strong>________</strong>    <strong>______</strong>
+
+      50        0.56            0.099536           0          0       0.18929       0       0.31403       3         0.78        3         0.86 
+     100        0.66            0.069162           0          0       0.18929       0       0.25706       3         0.66        3         0.84 
+     200        0.82            0.030684           0          0             0       0       0.19341       3         0.82        3         0.88 
+     500         0.9            0.017725           0          0             0       0       0.19341       3          0.9        3         0.92 
+    1000           1                   0           0          0             0       0             0       3            1        3            1 
+    5000           1                   0           0          0             0       0             0       3            1        3            1 
+
+

@@ -1,0 +1,22 @@
+E1 - fitted exponents (theory: slope = -q/d_B, ratio = 2)
+
+         <strong>regime</strong>         <strong>d_true</strong>    <strong>slope_q1</strong>    <strong>theory_q1</strong>    <strong>dHat_q1</strong>    <strong>slope_q2</strong>    <strong>theory_q2</strong>    <strong>dHat_q2</strong>    <strong>ratio_q2_q1</strong>
+    <strong>________________</strong>    <strong>______</strong>    <strong>________</strong>    <strong>_________</strong>    <strong>_______</strong>    <strong>________</strong>    <strong>_________</strong>    <strong>_______</strong>    <strong>___________</strong>
+
+    "cube  d=b=1"         1        -1.0017          -1     0.99829     -2.0013          -2     0.99933      1.9979   
+    "cube  d=b=2"         2       -0.50237        -0.5      1.9905     -1.0044          -1      1.9913      1.9992   
+    "cube  d=b=3"         3       -0.33877    -0.33333      2.9518    -0.67892    -0.66667      2.9459      2.0041   
+    "torus d=b=3"         3       -0.33298    -0.33333      3.0031    -0.66555    -0.66667       3.005      1.9988   
+    "cube  d=b=5"         5       -0.20927        -0.2      4.7784    -0.42033        -0.4      4.7582      2.0085   
+    "torus d=b=5"         5       -0.19975        -0.2      5.0064     -0.3994        -0.4      5.0075      1.9995   
+    "cube  d=b=8"         8       -0.13733      -0.125      7.2816    -0.27584       -0.25      7.2505      2.0086   
+    "torus d=b=8"         8       -0.12547      -0.125      7.9697    -0.25092       -0.25      7.9705      1.9998   
+    "graph d=2 b=10"      2       -0.50126        -0.5       1.995     -1.0045          -1      1.9911      2.0038   
+    "graph d=4 b=12"      4       -0.25803       -0.25      3.8755    -0.51744        -0.5      3.8652      2.0053   
+
+
+
+Tail bound (torus d=b=3, n = 100000)
+  empirical   c_B = 4.1826
+  theoretical V_d = 4.1888
+  discrepancy     = -0.15%

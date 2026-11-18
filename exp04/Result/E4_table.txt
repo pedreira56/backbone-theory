@@ -1,0 +1,45 @@
+E4 - Proposition P5 made operational
+
+Block-wise summaries under the two populations
+                 <strong>quantity</strong>                  <strong>under_Pperp</strong>    <strong>under_Pprime</strong>
+    <strong>___________________________________</strong>    <strong>___________</strong>    <strong>____________</strong>
+
+    "mean, block 1 attribute 1"             0.0053384      0.0053384  
+    "sd, block 1 attribute 1"                 0.53298        0.53298  
+    "corr within block 1"                     0.25629        0.25629  
+    "mean, block 2 attribute 1"             0.0034563       0.003764  
+    "sd, block 2 attribute 1"                 0.53757        0.53748  
+    "corr ACROSS blocks (unobservable)"    0.00078113        0.38579  
+
+
+
+Rejection rates of the two-sample energy test (400 replications)
+     nominal        block 1        block 2
+        0.05         0.0550         0.0550
+        0.10         0.1000         0.0950
+        0.20         0.1850         0.2175
+  mean p-value: block 1 = 0.5032, block 2 = 0.4917  (uniform: 0.5)
+
+Joint tail probability
+  under P-perp                 : 0.03796
+  under P-prime                : 0.07149  (ratio 1.883)
+  reconstruction, by n (with binomial standard error):
+    n =      100 : 0.05917  (s.e. 0.00118)
+    n =      268 : 0.04412  (s.e. 0.00103)
+    n =      720 : 0.03327  (s.e. 0.00090)
+    n =     1931 : 0.03365  (s.e. 0.00090)
+    n =     5179 : 0.03790  (s.e. 0.00095)
+    n =    13895 : 0.03600  (s.e. 0.00093)
+    n =    37276 : 0.03810  (s.e. 0.00096)
+    n =   100000 : 0.03778  (s.e. 0.00095)
+
+Cross-block correlation of the imputed pair
+  true under P-prime = 0.4500 ; true under P-perp = 0.0000
+    n =      100 : +0.1228
+    n =      268 : +0.0162
+    n =      720 : -0.0233
+    n =     1931 : -0.0036
+    n =     5179 : +0.0216
+    n =    13895 : -0.0077
+    n =    37276 : +0.0044
+    n =   100000 : -0.0024

@@ -1,0 +1,23 @@
+E3 - dichotomy between pointwise prediction and distributional reconstruction
+
+            <strong>regime</strong>            <strong>beta</strong>    <strong>d_B</strong>    <strong>theoryW</strong>      <strong>slopeW</strong>     <strong>floor_tau2</strong>    <strong>riskRatio_val_med</strong>    <strong>w2med_over_floor</strong>
+    <strong>______________________</strong>    <strong>____</strong>    <strong>___</strong>    <strong>________</strong>    <strong>________</strong>    <strong>__________</strong>    <strong>_________________</strong>    <strong>________________</strong>
+
+    "Lipschitz beta=1 d=2"      1      2           -1      -1.005     0.78579                2               1.0022     
+    "Weier  beta=0.50 d=2"    0.5      2         -0.5    -0.50028     0.78542           1.9622               1.0431     
+    "Lipschitz beta=1 d=3"      1      3     -0.66667    -0.67352     0.76977           1.9994               1.0065     
+
+
+
+Trade-off at n = 100000, regime Lipschitz beta=1 d=2
+         k      individual risk             W2^2
+         1             1.574993         0.000008
+         2             1.181259         0.067567
+         3             1.050008         0.140685
+         5             0.945012         0.240649
+        10             0.866261         0.368205
+        20             0.826886         0.474709
+        50             0.803264         0.580522
+       100             0.795390         0.637890
+      mean             0.787514         0.787514
+  floor E[tau^2] = 0.785789

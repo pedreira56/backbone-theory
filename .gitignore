@@ -1,0 +1,18 @@
+# MATLAB
+*.asv
+*.autosave
+*.m~
+slprj/
+# Windows and macOS clutter
+Thumbs.db
+desktop.ini
+~$*
+.DS_Store
+
+# Saidas regeneraveis que nao entram no repositorio: as figuras estao no artigo
+*/Result/*_fig.pdf
+*/Result/*_fig.png
+*/Result/*_fig_v2.pdf
+*/Result/*_fig_v2.png
+# 44 MB; runE1 o regenera
+exp01/Result/E1.mat

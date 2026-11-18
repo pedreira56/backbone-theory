@@ -1,0 +1,21 @@
+E10 - fully empirical backbone selection: every criterion component estimated
+
+population optimum at b = 3: [1  2  3], U = 4.2214
+planned donor block size used for extrapolation: NL = 3000
+population-optimal cardinality: 3 (cost 0.40), 3 (cost 0.50)
+replications per pilot size: 50
+search: forward greedy; opt_on_path says whether the population optimum
+was reachable by the greedy path at all, separating search from estimation
+delta_ratio: estimated / population pairing term at the latent cardinality
+
+     <strong>n</strong>      <strong>hit_backbone</strong>    <strong>excess_criterion</strong>    <strong>opt_on_path</strong>    <strong>delta_ratio</strong>    <strong>bsel_c40</strong>    <strong>pb_c40</strong>    <strong>bsel_c50</strong>    <strong>pb_c50</strong>
+    <strong>____</strong>    <strong>____________</strong>    <strong>________________</strong>    <strong>___________</strong>    <strong>___________</strong>    <strong>________</strong>    <strong>______</strong>    <strong>________</strong>    <strong>______</strong>
+
+      50        0.44             0.13152           0.44          0.55846         4         0.24        4         0.46 
+     100        0.54            0.082553           0.54          0.91779         3         0.52        3         0.72 
+     200         0.8            0.036065            0.8           1.0934         3         0.66        3         0.86 
+     500         0.9            0.017725            0.9          0.91212         3          0.8        3         0.92 
+    1000        0.98           0.0038682           0.98          0.95339         3         0.98        3         0.98 
+    5000           1                   0              1          0.95143         3            1        3            1 
+
+

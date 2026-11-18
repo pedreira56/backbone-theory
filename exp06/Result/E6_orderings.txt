@@ -1,0 +1,23 @@
+E6 - oracle ordering against the implementable ordering
+
+    <strong>b</strong>     <strong>count</strong>    <strong>Phi_oracle</strong>    <strong>Phi_value</strong>    <strong>same_minimiser</strong>    <strong>top8_in_common</strong>    <strong>spearman</strong>                       <strong>argmin_oracle</strong>                                          <strong>argmin_value</strong>                    
+    <strong>__</strong>    <strong>_____</strong>    <strong>__________</strong>    <strong>_________</strong>    <strong>______________</strong>    <strong>______________</strong>    <strong>________</strong>    <strong>___________________________________________________</strong>    <strong>___________________________________________________</strong>
+
+     1      14       10.478       20.955          true                8                 1     "2"                                                    "2"                                                
+     2      91       7.1163       14.212          true                8           0.99998     "1  2"                                                 "1  2"                                             
+     3     364       4.2214       8.1251          true                7           0.99979     "1  2  3"                                              "1  2  3"                                          
+     4    1001       4.2473       7.6672          false               7           0.99769     "1   2   3  12"                                        "1  2  3  6"                                       
+     5    2002       4.3395        7.452          false               4            0.9877     "1  2  3  7  8"                                        "1  2  3  4  8"                                    
+     6    3003       4.3385       7.1578          false               2           0.96082     "9  10  11  12  13  14"                                "2   3   4   9  11  12"                            
+     7    3432       4.1381       6.5383          false               1           0.92143     "7   9  10  11  12  13  14"                            "4   6   7   8   9  10  12"                        
+     8    3003       3.8065       5.7526          false               4           0.90316     "7   8   9  10  11  12  13  14"                        "5   6   7  10  11  12  13  14"                    
+     9    2002         3.39       4.8293          false               4           0.89057     "6   7   8   9  10  11  12  13  14"                    "4   5   7   8   9  10  12  13  14"                
+    10    1001       2.9927       3.9545          false               3           0.87434     "4   6   7   8   9  10  11  12  13  14"                "4   5   6   7   9  10  11  12  13  14"            
+    11     364         2.37       2.8453          true                4           0.86123     "4   5   6   7   8   9  10  11  12  13  14"            "4   5   6   7   8   9  10  11  12  13  14"        
+    12      91       1.7593       2.0677          false               4           0.84058     "2   4   5   6   7   8   9  10  11  12  13  14"        "3   4   5   6   7   8   9  10  11  12  13  14"    
+    13      14      0.92069       1.0717          true                5           0.67912     "1   3   4   5   6   7   8   9  10  11  12  13  14"    "1   3   4   5   6   7   8   9  10  11  12  13  14"
+
+
+  intended backbone, value criterion: rank 1 of 364 at b = 3
+  cost threshold, oracle criterion : 0.384
+  cost threshold, value criterion  : 0.739

@@ -1,0 +1,21 @@
+E5 - rate and constant structure of Theorem T4
+
+               <strong>regime</strong>                <strong>M</strong>    <strong>beta</strong>    <strong>d_B</strong>    <strong>sumLambda2</strong>    <strong>theory</strong>     <strong>slope</strong>     <strong>discr_per_Lambda2</strong>    <strong>ratio_to_bound</strong>
+    <strong>_____________________________</strong>    <strong>_</strong>    <strong>____</strong>    <strong>___</strong>    <strong>__________</strong>    <strong>______</strong>    <strong>_______</strong>    <strong>_________________</strong>    <strong>______________</strong>
+
+    "M = 2, equal"                   2     1       2       3.8594        -1       -1.008       7.8338e-07           0.24687    
+    "M = 3, equal"                   3     1       2       5.0936        -1      -1.0015       8.0717e-07           0.25047    
+    "M = 4, equal"                   4     1       2       8.3454        -1       -1.002        8.052e-07           0.25269    
+    "M = 6, equal"                   6     1       2       17.395        -1      -1.0059       8.0069e-07           0.25029    
+    "M = 4, scales (1 1 1)"          4     1       2       8.3454        -1      -1.0054       7.9839e-07           0.25061    
+    "M = 4, scales (2 2 2)"          4     1       2       33.381        -1      -1.0043       8.0092e-07           0.25272    
+    "M = 4, scales (1 1 4)"          4     1       2       56.987        -1      -1.0065       7.9689e-07           0.24909    
+    "M = 4, scales (3 1 2)"          4     1       2       35.352        -1      -1.0051       8.0336e-07           0.25269    
+    "M = 4, scales (0.5 0.5 0.5)"    4     1       2       2.0863        -1      -1.0063       7.9474e-07           0.25008    
+
+
+
+Constant structure at n = 100000
+  proportional fit slope           = 7.9926e-07
+  relative spread of the ratio     = 0.88 %
+  largest ratio to the T4 majorant = 0.2527
