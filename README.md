@@ -12,8 +12,8 @@ Appendix C, in the exact form in which they produced the numbers in the paper.
 
 ## Requirements
 
-* MATLAB. The constructs used require **R2016b or later** (implicit expansion,
-  `string`, `contains`).
+* MATLAB. The experiments were developed and run on **R2025b**; the constructs
+  used require R2016b or later (implicit expansion, `string`, `contains`).
 * **Statistics and Machine Learning Toolbox**, for `knnsearch` and `quantile`.
 
 No other toolbox, package or external data is needed. Every experiment
